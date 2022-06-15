@@ -3,20 +3,18 @@ package account
 import (
 	"encoding/hex"
 	"fmt"
-	"io"
-	"io/ioutil"
-	"os"
-	"path/filepath"
-	"strings"
-
-	"github.com/mitchellh/go-homedir"
-
 	"github.com/RichCG888/tron-go/pkg/common"
 	"github.com/RichCG888/tron-go/pkg/keystore"
 	"github.com/RichCG888/tron-go/pkg/mnemonic"
 	"github.com/RichCG888/tron-go/pkg/store"
 	mapset "github.com/deckarep/golang-set"
+	"github.com/mitchellh/go-homedir"
 	"github.com/namecoin/btcd/btcec"
+	"io"
+	"io/ioutil"
+	"os"
+	"path/filepath"
+	"strings"
 )
 
 // ImportFromPrivateKey allows import of an ECDSA private key

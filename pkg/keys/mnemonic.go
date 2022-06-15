@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/RichCG888/tron-go/pkg/keys/hd"
-	"github.com/btcsuite/btcd/btcec"
-	secp256k1 "github.com/btcsuite/btcd/btcec"
+	"github.com/namecoin/btcd/btcec"
+	secp256k1 "github.com/namecoin/btcd/btcec"
 	"github.com/tyler-smith/go-bip39"
 )
 

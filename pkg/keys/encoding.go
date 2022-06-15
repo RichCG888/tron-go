@@ -1,8 +1,8 @@
 package keys
 
 import (
-	secp256k1 "github.com/btcsuite/btcd/btcec"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	secp256k1 "github.com/namecoin/btcd/btcec"
 )
 
 type Dump struct {

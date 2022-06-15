@@ -1,4 +1,4 @@
-module 	github.com/RichCG888/tron-go
+module github.com/RichCG888/tron-go
 
 go 1.17
 
@@ -9,7 +9,7 @@ require (
 	github.com/ethereum/go-ethereum v1.10.11
 	github.com/fatih/color v1.9.0
 	github.com/fatih/structs v1.1.0
-	github.com/fbsobreira/gotron-sdk v0.0.0-20211102183839-58a64f4da5f4
+	github.com/RichCG888/tron-go v0.0.0-20211102183839-58a64f4da5f4
 	github.com/golang/protobuf v1.4.3
 	github.com/karalabe/hid v1.0.0
 	github.com/mitchellh/go-homedir v1.1.0

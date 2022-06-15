@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/RichCG888/tron-go/pkg/account"
+	c "github.com/RichCG888/tron-go/pkg/common"
 	"github.com/fatih/color"
-	"github.com/fbsobreira/gotron-sdk/pkg/account"
-	c "github.com/fbsobreira/gotron-sdk/pkg/common"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/ledger"
-	"github.com/fbsobreira/gotron-sdk/pkg/mnemonic"
-	"github.com/fbsobreira/gotron-sdk/pkg/store"
+	"github.com/RichCG888/tron-go/pkg/ledger"
+	"github.com/RichCG888/tron-go/pkg/mnemonic"
+	"github.com/RichCG888/tron-go/pkg/store"
 	"github.com/spf13/cobra"
 	"github.com/tyler-smith/go-bip39"
 )

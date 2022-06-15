@@ -29,8 +29,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/RichCG888/tron-go/pkg/address"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
 	"github.com/pborman/uuid"
 )
 

@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"unicode/utf8"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/api"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
+	"github.com/RichCG888/tron-go/pkg/address"
+	"github.com/RichCG888/tron-go/pkg/common"
+	"github.com/RichCG888/tron-go/pkg/proto/api"
+	"github.com/RichCG888/tron-go/pkg/proto/core"
 )
 
 const (

@@ -11,11 +11,11 @@ import (
 
 	"github.com/mitchellh/go-homedir"
 
+	"github.com/RichCG888/tron-go/pkg/common"
+	"github.com/RichCG888/tron-go/pkg/keystore"
+	"github.com/RichCG888/tron-go/pkg/mnemonic"
+	"github.com/RichCG888/tron-go/pkg/store"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
-	"github.com/fbsobreira/gotron-sdk/pkg/keystore"
-	"github.com/fbsobreira/gotron-sdk/pkg/mnemonic"
-	"github.com/fbsobreira/gotron-sdk/pkg/store"
 	"github.com/namecoin/btcd/btcec"
 )
 

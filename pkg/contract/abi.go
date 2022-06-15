@@ -3,7 +3,7 @@ package contract
 import (
 	"encoding/json"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
+	"github.com/RichCG888/tron-go/pkg/proto/core"
 )
 
 // JSONABI data format

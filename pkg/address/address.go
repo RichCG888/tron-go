@@ -6,8 +6,8 @@ import (
 	"encoding/base64"
 	"math/big"
 
+	"github.com/RichCG888/tron-go/pkg/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
 )
 
 const (

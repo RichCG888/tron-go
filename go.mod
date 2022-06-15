@@ -1,4 +1,4 @@
-module tron
+module 	github.com/RichCG888/tron-go
 
 go 1.17
 
